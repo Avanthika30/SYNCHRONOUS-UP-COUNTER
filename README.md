@@ -27,8 +27,16 @@ The next flip-flop need only “recognize” that the first flip-flop’s Q outp
 However, the remaining flip-flops should be made ready to toggle only when all lower-order output bits are “high,” thus the need for AND gates.
 
 **Procedure**
+```
+Understand the Functionality
+Open Quartus
+Launch Quartus and create a new project.
+Add a Verilog file to the project.
+Write Verilog Code imulate the Design Open ModelSim or Quartus Waveform Viewer.
+Observe the output Q and ensure it matches the expected behavior.
+Validate the Results.
+```
 
-/* write all the steps invloved */
 
 **PROGRAM**
 
