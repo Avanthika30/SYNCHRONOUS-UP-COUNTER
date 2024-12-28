@@ -42,13 +42,31 @@ Validate the Results.
 
 /* Program for flipflops and verify its truth table in quartus using Verilog programming. 
 
-Developed by: RegisterNumber:
+Developed by:Avanthika.B RegisterNumber:24900424
 */
-
+```
+module ex11(out,clk,rst);
+input clk,rst;
+output reg [3:0]out;
+always @ (posedge clk)
+begin
+   if(rst)
+     out<=0;
+   else 
+     out <= out+1;
+end
+endmodule
+```
 **RTL LOGIC UP COUNTER**
+![ep 11](https://github.com/user-attachments/assets/c07a2404-ed93-461e-be5e-59c96b77552e)
 
 **TIMING DIAGRAM FOR IP COUNTER**
+![ep 11 1](https://github.com/user-attachments/assets/eec2623d-4131-43b8-9df9-1ebb6326a04e)
 
 **TRUTH TABLE**
 
+![image](https://github.com/user-attachments/assets/57c96be9-f454-402b-a9a1-fd41f4497443)
+
 **RESULTS**
+
+4 bit synchronous up counter is implemented successfully and validated its functionality.
